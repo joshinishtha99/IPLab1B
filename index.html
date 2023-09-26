@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <form action="#" method="post">
+    <form action="#" method="post" onsubmit="return generateReceipt();">
         <h1><u>Customized T-Shirt Order Form</u></h1>
 
         <figure>
@@ -25,6 +25,8 @@
             <label for="tagline">Tagline on the Shirt:</label>
             <input type="text" id="tagline" name="tagline" placeholder="Enter your tagline here">
         </div>
+
+
 
         <div>
             <label for="color">Color:</label>
@@ -95,6 +97,7 @@
         </fieldset>
 
         <input type="submit" value="Place Order">
+        <script src="1ab.js"></script>
     </form>
 </body>
 
